@@ -17,4 +17,9 @@ for linux you have to change the .bat file in a .sh file, and change these lines
 
 # Installation
 to run this script you need to have [nodejs](https://nodejs.org/en/download/) installed
-after that you have to open the command prompt, navigate to the directory of the script, and write `npm install systeminformation`, and finally, `node shutdown.js`
+ - open the command prompt
+ - navigate to the directory of the script
+ - write `npm install systeminformation` 
+ - write `node shutdown.js`
+
+after that the program will give some output to make sure that all the settings are correct, and whenever it checks the downloaded megabytes per second there will be and output of the current megabytes per second.
